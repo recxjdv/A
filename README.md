@@ -1,2 +1,2 @@
-# A
+# xssPayload
 Simple XSS payload
