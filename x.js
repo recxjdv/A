@@ -1,5 +1,5 @@
 function xssPayload() {
-  const alertMsg = 'xss ' + document.location;
+  const alertMsg = 'xss ' + document.cookie;
   console.log(alertMsg);
   window.prompt(alertMsg);
 }
